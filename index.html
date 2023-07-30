@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Book</h1>
+
+        <h2>Fast and Easy Meals:</h2>
+        <div class="gallery">
+            <div class="recipe" onclick="openRecipe('Veggie Stir Fry.html')">
+                <img src="Veggie Stir Fry.png" alt="Veggie Stir Fry">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Veggie Stir Fry</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('one pot pasta.html')">
+                <img src="one pot pasta.png" alt="one pot pasta">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">one pot pasta</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Sheet Pan Chicken Fajitas.html')">
+                <img src="Sheet Pan Chicken Fajitas.png" alt="Sheet Pan Chicken Fajitas">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Sheet Pan Chicken Fajitas</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Black Bean Tacos with Avocado Salsa.html')">
+                <img src="Black Bean Tacos with Avocado Salsa.png" alt="Black Bean Tacos with Avocado Salsa">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Black Bean Tacos with Avocado Salsa</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Egg Fried Rice with Vegetables.html')">
+                <img src="Egg Fried Rice with Vegetables.png" alt="Egg Fried Rice with Vegetables">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Egg Fried Rice with Vegetables</p>
+            </div>
+        </div>
+        
+        <h2>International Cuisine:</h2>
+        <div class="gallery">
+            <div class="recipe" onclick="openRecipe('Chicken Tikka Masala (Indian).html')">
+                <img src="Chicken Tikka Masala (Indian).png" alt="Chicken Tikka Masala (Indian)">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Chicken Tikka Masala (Indian)</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Sushi (Japanese).html')">
+                <img src="Sushi (Japanese).png" alt="Sushi (Japanese)">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Sushi (Japanese)</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Spaghetti Carbonara (Italian).html')">
+                <img src="Spaghetti Carbonara (Italian).png" alt="Spaghetti Carbonara (Italian)">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Spaghetti Carbonara (Italian)</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Beef and Broccoli Stir-Fry (Chinese).html')">
+                <img src="Beef and Broccoli Stir-Fry (Chinese).png" alt="Beef and Broccoli Stir-Fry (Chinese)">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Beef and Broccoli Stir-Fry (Chinese)</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Tacos al Pastor  (Mexican).html')">
+                <img src="Tacos al Pastor (Mexican).png" alt="Tacos al Pastor (Mexican)">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Tacos al Pastor  (Mexican)</p>
+            </div>
+        </div>
+
+        <h2>Desserts and Baking:</h2>
+        <div class="gallery">
+            <div class="recipe" onclick="openRecipe('Classic Chocolate Chip Cookies.html')">
+                <img src="Classic Chocolate Chip Cookies.png" alt="Classic Chocolate Chip Cookies">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Classic Chocolate Chip Cookies</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Fresh Fruit Tart.html')">
+                <img src="Fresh Fruit Tart.png" alt="Fresh Fruit Tart">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Fresh Fruit Tart</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Rich and Fudgy Brownies.html')">
+                <img src="Rich and Fudgy Brownies.png" alt="Rich and Fudgy Brownies">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Rich and Fudgy Brownies</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Vanilla Bean Cheesecake.html')">
+                <img src="Vanilla Bean Cheesecake.png" alt="Vanilla Bean Cheesecake">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Vanilla Bean Cheesecake</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Apple Cinnamon Crisp.html')">
+                <img src="Apple Cinnamon Crisp.png" alt="Apple Cinnamon Crisp">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Apple Cinnamon Crisp</p>
+            </div>
+        </div>
+
+        <h2>Health Conscious Recipes:</h2>
+        <div class="gallery">
+            <div class="recipe" onclick="openRecipe('Quinoa Salad.html')">
+                <img src="Quinoa Salad.png" alt="Quinoa Salad">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Quinoa Salad</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Grilled Chicken with Steamed Broccoli and Brown Rice.html')">
+                <img src="Grilled Chicken with Steamed Broccoli and Brown Rice.png" alt="Grilled Chicken with Steamed Broccoli and Brown Rice">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Grilled Chicken with Steamed Broccoli and Brown Rice</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Zucchini Noodles with Avocado Pesto Sauce.html')">
+                <img src="Zucchini Noodles with Avocado Pesto Sauce.png" alt="Zucchini Noodles with Avocado Pesto Sauce">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Zucchini Noodles with Avocado Pesto Sauce</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Baked Salmon with Lemon and Dill.html')">
+                <img src="Baked Salmon with Lemon and Dill.png" alt="Baked Salmon with Lemon and Dill">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Baked Salmon with Lemon and Dill</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Greek Yogurt Parfait with Fresh Berries and Granola.html')">
+                <img src="Greek Yogurt Parfait with Fresh Berries and Granola.png" alt="Greek Yogurt Parfait with Fresh Berries and Granola">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Greek Yogurt Parfait with Fresh Berries and Granola</p>
+            </div>
+        </div>
+
+        <h2>Vegetarian and Vegan Dishes:</h2>
+        <div class="gallery">
+            <div class="recipe" onclick="openRecipe('Vegan Cauliflower Wingscipe.html')">
+                <img src="Vegan Cauliflower Wingscipe.png" alt="Vegan Cauliflower Wingscipe">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Vegan Cauliflower Wingscipe</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Stuffed Bell Peppers.html')">
+                <img src="Stuffed Bell Peppers.png" alt="Stuffed Bell Peppers">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Stuffed Bell Peppers</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Lentil and Vegetable Curry.html')">
+                <img src="Lentil and Vegetable Curry.png" alt="Lentil and Vegetable Curry">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Lentil and Vegetable Curry</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Spinach and Mushroom Vegan Lasagna.html')">
+                <img src="Spinach and Mushroom Vegan Lasagna.png" alt="Spinach and Mushroom Vegan Lasagna">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Spinach and Mushroom Vegan Lasagna</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Chickpea and Vegetable Coconut Curry.html')">
+                <img src="Chickpea and Vegetable Coconut Curry.png" alt="Chickpea and Vegetable Coconut Curry">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Chickpea and Vegetable Coconut Curry</p>
+            </div>
+        </div>
+
+        <h2>Budget-Friendly Meals:</h2>
+        <div class="gallery">
+            <div class="recipe" onclick="openRecipe('Bean and Rice Burritos with Salsa.html')">
+                <img src="Bean and Rice Burritos with Salsa.png" alt="Bean and Rice Burritos with Salsa">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Bean and Rice Burritos with Salsa</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Budget-Friendly Veggie Stir-Fry.html')">
+                <img src="Budget-Friendly Veggie Stir-Fry.png" alt="ReciBudget-Friendly Veggie Stir-Frype">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Budget-Friendly Veggie Stir-Fry</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Pasta with Tomato Sauce and Parmesan Cheese.html')">
+                <img src="Pasta with Tomato Sauce and Parmesan Cheese.png" alt="Pasta with Tomato Sauce and Parmesan Cheese">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Pasta with Tomato Sauce and Parmesan Cheese</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Tuna Salad Sandwiches.html')">
+                <img src="Tuna Salad Sandwiches.png" alt="Tuna Salad Sandwiches">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Tuna Salad Sandwiches</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Lentil Soup with Vegetables.html')">
+                <img src="Lentil Soup with Vegetables.png" alt="Lentil Soup with Vegetables">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Lentil Soup with Vegetables</p>
+            </div>
+        </div>
+
+        <h2>Smoothies and Juices:</h2>
+        <div class="gallery">
+            <div class="recipe" onclick="openRecipe('Berry Blast Smoothie.html')">
+                <img src="Berry Blast Smoothie.png" alt="Berry Blast Smoothie">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Berry Blast Smoothie</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Green Detox Smoothie.html')">
+                <img src="Green Detox Smoothie.png" alt="Green Detox Smoothie">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Green Detox Smoothie</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Orange Carrot Ginger Juice.html')">
+                <img src="Orange Carrot Ginger Juice.png" alt="Orange Carrot Ginger Juice">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Orange Carrot Ginger Juice</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Tropical Mango-Pineapple Smoothie.html')">
+                <img src="Tropical Mango-Pineapple Smoothie.png" alt="Tropical Mango-Pineapple Smoothie">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Tropical Mango-Pineapple Smoothie</p>
+            </div>
+            <div class="recipe" onclick="openRecipe('Watermelon Mint Cooler Juice.html')">
+                <img src="Watermelon Mint Cooler Juice.png" alt="Watermelon Mint Cooler Juice">
+                <p style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Watermelon Mint Cooler Juice</p>
+            </div>
+        </div>
+        <h2>Contact us</h2>
+        <div class="glass-background">
+          <div class="contribution-row">
+            <span><a style="text-decoration: none" href="mailto:20P31A0548@acet.ac.in"><h3>P. V. Chaitanya</h3></a></span>
+          </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
