@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Book</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="recipe-book">
+    <div class="recipe" id="recipe1">
+      <h2>Recipe 1</h2>
+      <button class="view-details-btn" onclick="showDetails('recipe1')">View Details</button>
+      <div class="details" id="recipe1-details">
+        <p>Recipe 1 details will be shown here.</p>
+        <p>Ingredients: Ingredient 1, Ingredient 2, Ingredient 3</p>
+        <p>Instructions: Step 1, Step 2, Step 3</p>
+      </div>
+    </div>
+
+    <div class="recipe" id="recipe2">
+      <h2>Recipe 2</h2>
+      <button class="view-details-btn" onclick="showDetails('recipe2')">View Details</button>
+      <div class="details" id="recipe2-details">
+        <p>Recipe 2 details will be shown here.</p>
+        <p>Ingredients: Ingredient A, Ingredient B, Ingredient C</p>
+        <p>Instructions: Step A, Step B, Step C</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

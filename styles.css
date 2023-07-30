@@ -1,0 +1,115 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.png');
+    background-attachment:fixed;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: white; /* Set the text color to white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-in-out;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(227, 227, 227); /* Set the text color to white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-in-out;
+    transition: color 1s ease-in-out, transform 1s ease-in-out; /* Include the color property in the transition */
+}
+
+h3:hover {
+    color: rgb(154, 153, 246); /* Change the hover color to whatever you desire */
+    transform: scale(1.2); /* Apply the transform during hover */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease-in-out; 
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.recipe img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.4s ease-in-out;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+.recipe img:hover {
+    transform: scale(1.2);
+}
+
+.recipe p {
+    font-size: 18px;
+}
+
+.glass-background {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px); 
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contribution-row {
+    display: flex;
+    justify-content: center;
+}
+.contribution-row span {
+    margin: 0 100px;
+}
