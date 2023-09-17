@@ -19,7 +19,7 @@ To use the Recipe Book Website locally on your machine, follow these steps:
 
 2. Navigate to the project's directory.
 
-3. Open the `index.html` file in your preferred web browser.
+3. Open the `#index.html` file in your preferred web browser.
 
 4. Now, you can explore the website, search for recipes, view details, and interact with the available features.
 
