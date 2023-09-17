@@ -23,6 +23,11 @@ To use the Recipe Book Website locally on your machine, follow these steps:
 
 4. Now, you can explore the website, search for recipes, view details, and interact with the available features.
 
+![image](https://github.com/pvchaitanya8/Recipe-Book/assets/93573686/89677e1d-9758-4541-bfd0-222d75f4cad6)
+
+![image](https://github.com/pvchaitanya8/Recipe-Book/assets/93573686/e5254bb7-7578-4e49-b95e-63915c401662)
+
+
 ## Contributing
 
 We welcome and appreciate contributions to enhance the Recipe Book Website. If you find any bugs or have suggestions for new features, please feel free to submit an issue or create a pull request on [GitHub link].
